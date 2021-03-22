@@ -6,6 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>J</title>
+    <!-- Global site tag (gtag.js) - Google Ads: CONVERSION_ID -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-CONVERSION_ID"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "AW-CONVERSION_ID");
+    </script>
   </head>
   <body>
     <h1>영상기능<br /></h1>
@@ -17,7 +31,8 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
-    <div id="disqus_thread"><h1>댓글기능</h1></div>
+    <h1>댓글기능</h1>
+    <div id="disqus_thread"></div>
     <script>
       /**
        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -43,5 +58,21 @@
         >comments powered by Disqus.</a
       ></noscript
     >
+    <h1>채팅기능</h1>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/6058a0baf7ce18270932a754/1f1d37mps";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
   </body>
 </html>
